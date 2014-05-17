@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /linuxdrive/rowboat-android/kernel/scripts/mkuboot.sh -A arm -O linux -T kernel -C none -a 0x80008000 -e 0x80008000 -n 'Linux-3.2.0-00244-gcf99001-dirty' -d arch/arm/boot/zImage arch/arm/boot/uImage
